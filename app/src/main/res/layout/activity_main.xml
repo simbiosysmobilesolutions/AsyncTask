@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/DARK_BLUE"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/progressbar_Horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:max="100" />
+
+    <Button
+        android:id="@+id/startprogress"
+        style="@style/button_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Go Async" />
+
+</LinearLayout>
